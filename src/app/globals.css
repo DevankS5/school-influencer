@@ -1,0 +1,125 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #10261e;
+  --color-pine: #17453a;
+  --color-pine-2: #1f5a4a;
+  --color-moss: #3b7a58;
+  --color-sage: #8db39a;
+  --color-mist: #e1ece1;
+  --color-fog: #eef3ea;
+  --color-paper: #f5f2e9;
+  --color-card: #fcfbf6;
+  --color-line: #dcdfd1;
+  --color-brass: #b8893a;
+  --color-brass-soft: #f1e6cc;
+  --color-clay: #b5532f;
+  --color-clay-soft: #f6e1d6;
+  --color-muted: #5b6e63;
+  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --font-sans: ui-sans-serif, "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background-color: var(--color-paper);
+  background-image:
+    radial-gradient(900px 520px at 8% -8%, rgba(141, 179, 154, 0.35), transparent 60%),
+    radial-gradient(700px 480px at 100% 4%, rgba(184, 137, 58, 0.14), transparent 60%),
+    radial-gradient(800px 600px at 50% 110%, rgba(59, 122, 88, 0.12), transparent 60%);
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-sage);
+  color: var(--color-ink);
+}
+
+@layer components {
+  .card {
+    background: var(--color-card);
+    border: 1px solid var(--color-line);
+    border-radius: 28px;
+    box-shadow:
+      0 1px 0 rgba(255, 255, 255, 0.8) inset,
+      0 18px 40px -26px rgba(16, 38, 30, 0.35);
+  }
+  .card-flat {
+    background: rgba(252, 251, 246, 0.7);
+    border: 1px solid var(--color-line);
+    border-radius: 24px;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-medium transition duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-moss disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-medium transition duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-moss disabled:cursor-not-allowed disabled:opacity-50 bg-pine text-paper shadow-[0_10px_24px_-12px_rgba(23,69,58,0.7)] hover:bg-pine-2 hover:-translate-y-px;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-medium transition duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-moss disabled:cursor-not-allowed disabled:opacity-50 border border-line bg-card text-ink hover:bg-mist;
+  }
+  .btn-brass {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-medium transition duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-moss disabled:cursor-not-allowed disabled:opacity-50 bg-brass text-white hover:brightness-110;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full bg-mist px-2.5 py-1 text-xs font-medium text-pine;
+  }
+  .chip-brass {
+    @apply inline-flex items-center gap-1 rounded-full bg-brass-soft px-2.5 py-1 text-xs font-medium text-[#7a5614];
+  }
+  .chip-clay {
+    @apply inline-flex items-center gap-1 rounded-full bg-clay-soft px-2.5 py-1 text-xs font-medium text-clay;
+  }
+  .chip-line {
+    @apply inline-flex items-center gap-1 rounded-full border border-line bg-card px-2.5 py-1 text-xs font-medium text-muted;
+  }
+  .eyebrow {
+    @apply text-[11px] font-semibold uppercase tracking-[0.16em] text-moss;
+  }
+  .field {
+    @apply w-full rounded-2xl border border-line bg-white/80 px-4 py-2.5 text-sm text-ink placeholder:text-muted/60 transition focus:border-moss focus:bg-white focus:outline-none focus:ring-4 focus:ring-sage/30;
+  }
+  .label {
+    @apply mb-1.5 block text-xs font-semibold uppercase tracking-[0.12em] text-muted;
+  }
+  .display {
+    font-family: var(--font-display);
+    letter-spacing: -0.015em;
+  }
+}
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.rise {
+  animation: rise 0.55s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rise {
+    animation: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
