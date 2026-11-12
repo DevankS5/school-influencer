@@ -1,0 +1,18 @@
+{
+  "version": "india-school-ecosystem-v1",
+  "title": "India school-ecosystem synthetic fixture",
+  "data_origin": "synthetic",
+  "as_of": "2025-06-30T00:00:00.000Z",
+  "counts": {
+    "source_records": 62,
+    "evidence_items": 92,
+    "labelled_people": 58
+  },
+  "licence_notes": "Authored by the EDXSO project team as a test fixture. Contains no real persons, no scraped content, and no LinkedIn data. Any resemblance to real people or organisations is coincidental. Free to redistribute with the repository. Not suitable for model training claims about real-world performance.",
+  "sha256": {
+    "persons.csv": "4184388c18db5ea431812be5630defe9dfafc1fc31fbd78fb93528859d81ccb3",
+    "sources.csv": "e3a95aa5a48503790133ad1f0fa55c6e07da69f15260bcfe2088f24ecc73b21b",
+    "evidence.csv": "2dee53669d5a0da19f7caf1539dec5325b3f66579284f9fe24420023ed787bda",
+    "labels.csv": "a1a37f52c45ddc1e2bebdff5bac720c1cc512140aca0fcd716d218a60c70cb70"
+  }
+}
