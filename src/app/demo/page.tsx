@@ -1,3 +1,4 @@
+import { ACTIVE } from "@/data/active";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ReferenceProfilePreview } from "@/components/RunPanels";
@@ -17,7 +18,7 @@ export default async function DemoPage() {
         <p className="eyebrow">Seeded references</p>
         <h1 className="display mt-2 text-5xl font-semibold leading-[1.05]">Pick a reference, watch the pipeline work</h1>
         <p className="mt-4 text-lg leading-relaxed text-muted">
-          Three fictional professionals act as reference profiles. The first is the designated demo: its corpus contains direct matches, adjacent roles and hard negatives, plus labelled relevance for evaluation.
+          {ACTIVE.DATASET_META.origin === "synthetic" ? "Three fictional professionals act as reference profiles. The first is the designated demo: its corpus contains direct matches, adjacent roles and hard negatives, plus labelled relevance for evaluation." : "Three real professionals, taken from their organisations' own public pages, act as reference profiles. Every candidate in the corpus is a real person with a source URL and verbatim evidence."}
         </p>
       </header>
 
