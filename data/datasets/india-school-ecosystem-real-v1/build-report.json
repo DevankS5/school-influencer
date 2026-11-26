@@ -1,0 +1,54 @@
+{
+ "built_on": "2026-11-26",
+ "models_used": [
+  "gemini-3-flash-preview"
+ ],
+ "seed_urls": [
+  "https://dpsrkp.net/principals-message/",
+  "https://dpsjoka.com/principals-message/",
+  "https://campionschool.edu.in/principals-message/",
+  "https://dwpszirakpur.com/principals-messages/",
+  "https://mbs.ac.in/principals-message/",
+  "https://surajschoolrewari.com/principal-message.php",
+  "https://sgminternational.edu.in/vice-principals-message/",
+  "https://amsaijunglighat.in/principal-message/",
+  "https://www.vpmbrtol.co.in/principals-message/",
+  "https://nhswb.com/founders/cbse-board/academics/principals-message/",
+  "https://leadindiabharatratnas.in/about-us/principals-message/",
+  "https://globalschools.com/about/board-of-advisors/",
+  "https://internationalschoolspartnership.com/about-us/isp-leadership-team/",
+  "http://highperformingeducator.com/atul-temurnikar/",
+  "https://leadschool.in/about-us/leadership-team/",
+  "https://alokit.org/",
+  "https://www.kriyaa.co/our-team",
+  "https://aspire-india.org/our-team-2/",
+  "https://stireducation.org/who-we-are/",
+  "https://prathamusa.org/about-us/leadership/",
+  "https://www.teachforindia.org/leadership-team",
+  "https://www.centralsquarefoundation.org/team"
+ ],
+ "pages_fetched": 19,
+ "accepted": 22,
+ "rejected": [
+  {
+   "url": "https://alokit.org/",
+   "name": "Reeta Sawhney",
+   "why": "bio not verbatim on page"
+  },
+  {
+   "url": "https://alokit.org/",
+   "name": "George Varkey",
+   "why": "bio not verbatim on page"
+  },
+  {
+   "url": "https://www.kriyaa.co/our-team",
+   "name": "Priyali Goel",
+   "why": "bio does not name the person"
+  },
+  {
+   "url": "https://www.kriyaa.co/our-team",
+   "name": "Abhay",
+   "why": "no full name"
+  }
+ ]
+}
