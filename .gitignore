@@ -13,3 +13,4 @@ npm-debug.log*
 data/private/
 .vercel
 .env*
+data/datasets/*/.extract-cache.json
