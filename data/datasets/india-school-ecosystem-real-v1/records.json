@@ -1,0 +1,720 @@
+[
+ {
+  "key": "r001",
+  "name": "Anil Kumar",
+  "title": "Principal",
+  "org": "DPS RK Puram",
+  "city": "New Delhi",
+  "status": "current",
+  "bio": "Let s nurture the future with love and purpose! . Anil Kumar . Principal DPS RK Puram .",
+  "career": [],
+  "tags": [
+   "K-12",
+   "DPS"
+  ],
+  "roles": [
+   "principal"
+  ],
+  "fam": [
+   "school_leadership",
+   "k12_academic_leadership"
+  ],
+  "exp": "direct_single_school",
+  "q": "medium",
+  "v": "2026-11-26",
+  "src": "official_organisation_page",
+  "ev": [
+   [
+    "school_leadership",
+    "Anil Kumar . Principal DPS RK Puram ."
+   ]
+  ],
+  "url": "https://dpsrkp.net/principals-message/"
+ },
+ {
+  "key": "r002",
+  "name": "Writuparna Chatterjee",
+  "title": "Principal",
+  "org": "Delhi Public School (Joka)",
+  "city": "Kolkata",
+  "status": "current",
+  "bio": "Writuparna Chatterjee . Principal . Delhi Public School. (Joka),South Kolkata. Affiliated to CBSE | Affiliation No. 2430198.",
+  "career": [],
+  "tags": [
+   "CBSE",
+   "K-12"
+  ],
+  "roles": [
+   "principal"
+  ],
+  "fam": [
+   "school_leadership",
+   "k12_academic_leadership"
+  ],
+  "exp": "direct_single_school",
+  "q": "medium",
+  "v": "2026-11-26",
+  "src": "official_organisation_page",
+  "ev": [
+   [
+    "school_leadership",
+    "Principal . Delhi Public School"
+   ]
+  ],
+  "url": "https://dpsjoka.com/principals-message/"
+ },
+ {
+  "key": "r003",
+  "name": "Fr.(Dr.) Francis Swamy S.J.",
+  "title": "Principal",
+  "org": "Campion School",
+  "city": "",
+  "status": "current",
+  "bio": "As we mark the 80th year of Campion School, let us pledge to work even harder to further the vision and mission of Campion and build a future where all members of the human family are connected and enjoy access to our services. Fr.(Dr.) Francis Swamy S.J. Principal .",
+  "career": [],
+  "tags": [
+   "K-12",
+   "ICSE"
+  ],
+  "roles": [
+   "principal"
+  ],
+  "fam": [
+   "school_leadership"
+  ],
+  "exp": "direct_single_school",
+  "q": "medium",
+  "v": "2026-11-26",
+  "src": "official_organisation_page",
+  "ev": [
+   [
+    "school_leadership",
+    "Fr.(Dr.) Francis Swamy S.J. Principal ."
+   ]
+  ],
+  "url": "https://campionschool.edu.in/principals-message/"
+ },
+ {
+  "key": "r004",
+  "name": "Ms. Sarah Thomas",
+  "title": "Principal",
+  "org": "Campion International School",
+  "city": "",
+  "status": "current",
+  "bio": "As we step into this promising new beginning, we look ahead with profound hope and unwavering conviction-ready to collaboratively shape a future where our students continue to soar high, achieving personal success and leading a life of purpose and impact. Ms. Sarah Thomas. Principal .",
+  "career": [],
+  "tags": [
+   "K-12",
+   "Cambridge"
+  ],
+  "roles": [
+   "principal"
+  ],
+  "fam": [
+   "school_leadership"
+  ],
+  "exp": "direct_single_school",
+  "q": "medium",
+  "v": "2026-11-26",
+  "src": "official_organisation_page",
+  "ev": [
+   [
+    "school_leadership",
+    "Ms. Sarah Thomas. Principal ."
+   ]
+  ],
+  "url": "https://campionschool.edu.in/principals-message/"
+ },
+ {
+  "key": "r005",
+  "name": "Ms. Reshma Rahul Sheldekar",
+  "title": "Cambridge Early Years and Primary School Coordinator",
+  "org": "Campion International School",
+  "city": "",
+  "status": "current",
+  "bio": "Ms. Reshma Rahul Sheldekar. Cambridge Early Years and Primary School Coordinator. Campion International School. \"Go forth and set the world on fire.\" - St. Ignatius of Loyola. The Magis spirit - the pursuit of excellence, purpose, and service to others - lies at the heart of everything we do at Campion.",
+  "career": [],
+  "tags": [
+   "K-12",
+   "Cambridge Early Years",
+   "Primary"
+  ],
+  "roles": [
+   "coordinator"
+  ],
+  "fam": [
+   "k12_academic_leadership"
+  ],
+  "exp": "direct_single_school",
+  "q": "medium",
+  "v": "2026-11-26",
+  "src": "official_organisation_page",
+  "ev": [
+   [
+    "single_school_role",
+    "Cambridge Early Years and Primary School Coordinator"
+   ]
+  ],
+  "url": "https://campionschool.edu.in/principals-message/"
+ },
+ {
+  "key": "r006",
+  "name": "Shikha Rathod",
+  "title": "Preschool Teacher",
+  "org": "Campion International School",
+  "city": "",
+  "status": "current",
+  "bio": "Shikha Rathod. As a preschool teacher following the Cambridge Early Years approach, I create a safe, nurturing, and engaging environment where children learn through play and exploration. I support development across key areas, including Personal, Social and Emotional Development, Communication and Language, and Physical Development.",
+  "career": [],
+  "tags": [
+   "Early Years",
+   "Preschool"
+  ],
+  "roles": [
+   "teacher"
+  ],
+  "fam": [
+   "other_education"
+  ],
+  "exp": "direct_single_school",
+  "q": "medium",
+  "v": "2026-11-26",
+  "src": "official_organisation_page",
+  "ev": [
+   [
+    "single_school_role",
+    "As a preschool teacher following the Cambridge Early Years approach, I create a safe, nurturing, and engaging environment where children learn through play and exploration."
+   ]
+  ],
+  "url": "https://campionschool.edu.in/principals-message/"
+ },
+ {
+  "key": "r007",
+  "name": "Dr. Manisha Sahni",
+  "title": "Director Principal",
+  "org": "Delhi World Public School",
+  "city": "",
+  "status": "current",
+  "bio": "Education is and always will be a challenging enterprise, especially in the current situation of the global pandemic, but I am confident that together we can overcome every challenge and help our \"Worldites\" become self aware, resilient and confident citizens prepared to take on the world and win!. Warm regards, . Dr. Manisha Sahni . Director Principal",
+  "career": [],
+  "tags": [
+   "K-12",
+   "CBSE"
+  ],
+  "roles": [
+   "director principal",
+   "principal"
+  ],
+  "fam": [
+   "school_leadership",
+   "k12_academic_leadership"
+  ],
+  "exp": "direct_single_school",
+  "q": "medium",
+  "v": "2026-11-26",
+  "src": "official_organisation_page",
+  "ev": [
+   [
+    "school_leadership",
+    "Dr. Manisha Sahni . Director Principal"
+   ]
+  ],
+  "url": "https://dwpszirakpur.com/principals-messages/"
+ },
+ {
+  "key": "r008",
+  "name": "Ajay Gupta",
+  "title": "Principal",
+  "org": "Manava Bharati School",
+  "city": "Dehradun",
+  "status": "current",
+  "bio": "I hope that they will keep up the high values they have learnt at their alma mater. We at MBIIS also believe that learning is a never ending process and I assure you that this life long journey will be taken by our students and staff. Mr. Ajay Gupta. Principal Manava Bharati School, Dehradun.",
+  "career": [],
+  "tags": [
+   "K-12"
+  ],
+  "roles": [
+   "principal"
+  ],
+  "fam": [
+   "school_leadership"
+  ],
+  "exp": "direct_single_school",
+  "q": "medium",
+  "v": "2026-11-26",
+  "src": "official_organisation_page",
+  "ev": [
+   [
+    "school_leadership",
+    "Mr. Ajay Gupta. Principal Manava Bharati School, Dehradun."
+   ]
+  ],
+  "url": "https://mbs.ac.in/principals-message/"
+ },
+ {
+  "key": "r009",
+  "name": "Mrs. Uma Nigam",
+  "title": "Vice-Principal",
+  "org": "SGM International School",
+  "city": "Kanpur",
+  "status": "current",
+  "bio": "Mrs. Uma Nigam. Vice-Principal. Dear Students and Parents. We Believe That Every Child Is Unique. Each One Has A Different Pace Of Learning, Which Needs To Be Discovered By The School. Therefore, SGM Strives To Understand And Fulfil The Individual Needs Of Its Learners.",
+  "career": [],
+  "tags": [
+   "CBSE",
+   "K-12"
+  ],
+  "roles": [
+   "vice principal"
+  ],
+  "fam": [
+   "school_leadership",
+   "k12_academic_leadership"
+  ],
+  "exp": "direct_single_school",
+  "q": "medium",
+  "v": "2026-11-26",
+  "src": "official_organisation_page",
+  "ev": [
+   [
+    "school_leadership",
+    "Mrs. Uma Nigam. Vice-Principal."
+   ]
+  ],
+  "url": "https://sgminternational.edu.in/vice-principals-message/"
+ },
+ {
+  "key": "r010",
+  "name": "Ms. Shriya Chakraborty",
+  "title": "PRINCIPAL",
+  "org": "National High School",
+  "city": "Kolkata",
+  "status": "current",
+  "bio": "Ms. Shriya Chakraborty . PRINCIPAL. National High School. CBSE Campus. Secondary & Senior Secondary. Dear Students, Parents, and Educators,. Welcome to National High School, Kolkata, under the aegis of N.R. Iyer Memorial Education Society following 114 years of legacy in Academic Excellence.",
+  "career": [],
+  "tags": [
+   "CBSE",
+   "K-12"
+  ],
+  "roles": [
+   "principal"
+  ],
+  "fam": [
+   "school_leadership",
+   "k12_academic_leadership"
+  ],
+  "exp": "direct_single_school",
+  "q": "medium",
+  "v": "2026-11-26",
+  "src": "official_organisation_page",
+  "ev": [
+   [
+    "school_leadership",
+    "Ms. Shriya Chakraborty . PRINCIPAL. National High School."
+   ]
+  ],
+  "url": "https://nhswb.com/founders/cbse-board/academics/principals-message/"
+ },
+ {
+  "key": "r011",
+  "name": "Mrs Saisree Ramesh",
+  "title": "PRINCIPAL",
+  "org": "National High School",
+  "city": "",
+  "status": "current",
+  "bio": "Mrs Saisree Ramesh PRINCIPAL . Secondary & Senior Secondary Section. A warm and hearty welcome to all the viewers of the website of National High School (Hazra Road Campus).",
+  "career": [],
+  "tags": [
+   "K-12"
+  ],
+  "roles": [
+   "principal"
+  ],
+  "fam": [
+   "school_leadership",
+   "k12_academic_leadership"
+  ],
+  "exp": "direct_single_school",
+  "q": "medium",
+  "v": "2026-11-26",
+  "src": "official_organisation_page",
+  "ev": [
+   [
+    "school_leadership",
+    "Mrs Saisree Ramesh PRINCIPAL . Secondary & Senior Secondary Section."
+   ]
+  ],
+  "url": "https://nhswb.com/founders/cbse-board/academics/principals-message/"
+ },
+ {
+  "key": "r012",
+  "name": "Mrs. Anupama Ajitsaria",
+  "title": "PRINCIPAL",
+  "org": "National High School",
+  "city": "",
+  "status": "current",
+  "bio": "Mrs. Anupama Ajitsaria. PRINCIPAL. Junior & Middle School. Celebrating the fact that each student is different as a person and a learner National High School is an amazing play ground where each child unleashes his hopes and dreams to soar high.",
+  "career": [],
+  "tags": [
+   "K-12"
+  ],
+  "roles": [
+   "principal"
+  ],
+  "fam": [
+   "school_leadership",
+   "k12_academic_leadership"
+  ],
+  "exp": "direct_single_school",
+  "q": "medium",
+  "v": "2026-11-26",
+  "src": "official_organisation_page",
+  "ev": [
+   [
+    "school_leadership",
+    "Mrs. Anupama Ajitsaria. PRINCIPAL. Junior & Middle School."
+   ]
+  ],
+  "url": "https://nhswb.com/founders/cbse-board/academics/principals-message/"
+ },
+ {
+  "key": "r013",
+  "name": "HB Radha Reddy",
+  "title": "Principal",
+  "org": "LIBR School",
+  "city": "",
+  "status": "current",
+  "bio": "\"Education is a shared commitment between dedicated teachers, motivated students and enthusiastic parents with high expectations.\" We wish to thank all the parents for their faith in LIBR School. Let s partner together, so that we can see children being successful in whatever path they choose to tread. HB Radha Reddy .",
+  "career": [],
+  "tags": [
+   "CBSE",
+   "K-12"
+  ],
+  "roles": [
+   "principal"
+  ],
+  "fam": [
+   "school_leadership"
+  ],
+  "exp": "direct_single_school",
+  "q": "medium",
+  "v": "2026-11-26",
+  "src": "official_organisation_page",
+  "ev": [
+   [
+    "school_leadership",
+    "We wish to thank all the parents for their faith in LIBR School."
+   ]
+  ],
+  "url": "https://leadindiabharatratnas.in/about-us/principals-message/"
+ },
+ {
+  "key": "r014",
+  "name": "Atul Temurnikar",
+  "title": "Co-founding Trustee and Executive Chairman",
+  "org": "Global Schools Foundation",
+  "city": "Singapore",
+  "status": "current",
+  "bio": "Now he serves as co-founding trustee and Executive Chairman of Singapore-based Global Schools Foundation (GSF) , a not-for-profit organisation. Mr Temurnikar is a staunch advocate of high-quality education that transcends socio-economic boundaries from Korea to Japan in the East, to Singapore to Malaysia in ASEAN and India and Middle East.",
+  "career": [],
+  "tags": [
+   "K-12",
+   "Global Schools Foundation"
+  ],
+  "roles": [
+   "chairman",
+   "trustee",
+   "co-founder"
+  ],
+  "fam": [
+   "school_ownership_governance",
+   "school_network_operations"
+  ],
+  "exp": "school_group",
+  "q": "high",
+  "v": "2026-11-26",
+  "src": "official_organisation_page",
+  "ev": [
+   [
+    "school_group_role",
+    "Now he serves as co-founding trustee and Executive Chairman of Singapore-based Global Schools Foundation (GSF) , a not-for-profit organisation."
+   ],
+   [
+    "education_general",
+    "Mr Temurnikar is a staunch advocate of high-quality education that transcends socio-economic boundaries from Korea to Japan in the East, to Singapore to Malaysia in ASEAN and India and Middle East."
+   ]
+  ],
+  "url": "http://highperformingeducator.com/atul-temurnikar/"
+ },
+ {
+  "key": "r015",
+  "name": "Sumeet Mehta",
+  "title": "Co-Founder and CEO",
+  "org": "LEAD Group",
+  "city": "Mumbai",
+  "status": "current",
+  "bio": "Sumeet Mehta is Co-Founder and CEO of LEAD Group , India's only School Learning System unicorn. As Co-Founder and CEO of LEAD Group, Sumeet's mission is to make excellent education. accessible to every child, by transforming schools across India.",
+  "career": [],
+  "tags": [
+   "K-12",
+   "EdTech",
+   "School Learning System"
+  ],
+  "roles": [
+   "co-founder",
+   "ceo"
+  ],
+  "fam": [
+   "education_entrepreneurship",
+   "school_services"
+  ],
+  "exp": "multi_school",
+  "q": "high",
+  "v": "2026-11-26",
+  "src": "official_organisation_page",
+  "ev": [
+   [
+    "product_across_schools",
+    "Sumeet Mehta is Co-Founder and CEO of LEAD Group , India's only School Learning System unicorn."
+   ],
+   [
+    "programme_across_schools",
+    "Sumeet's mission is to make excellent education. accessible to every child, by transforming schools across India."
+   ]
+  ],
+  "url": "https://leadschool.in/about-us/leadership-team/"
+ },
+ {
+  "key": "r016",
+  "name": "Smita Deorah",
+  "title": "Co-Founder and Co-CEO",
+  "org": "LEAD Group",
+  "city": "Mumbai",
+  "status": "current",
+  "bio": "Smita Deorah is Co-Founder and Co-CEO at LEAD Group , India's only School Learning System unicorn. With over 22 years of experience, Smita has built innovative curricula to transform teaching. - learning in India's schools, and has trained educators across India. At LEAD Group, Smita steers education research, product development and capability. building.",
+  "career": [],
+  "tags": [
+   "K-12",
+   "Curriculum",
+   "EdTech"
+  ],
+  "roles": [
+   "co-founder",
+   "co-ceo"
+  ],
+  "fam": [
+   "education_entrepreneurship",
+   "k12_academic_leadership",
+   "school_services"
+  ],
+  "exp": "multi_school",
+  "q": "high",
+  "v": "2026-11-26",
+  "src": "official_organisation_page",
+  "ev": [
+   [
+    "product_across_schools",
+    "Smita Deorah is Co-Founder and Co-CEO at LEAD Group , India's only School Learning System unicorn."
+   ],
+   [
+    "programme_across_schools",
+    "Smita has built innovative curricula to transform teaching. - learning in India's schools, and has trained educators across India."
+   ]
+  ],
+  "url": "https://leadschool.in/about-us/leadership-team/"
+ },
+ {
+  "key": "r017",
+  "name": "Indranil Banerjee",
+  "title": "Chief Product Officer (CPO)",
+  "org": "LEAD Group",
+  "city": "",
+  "status": "current",
+  "bio": "Indranil Banerjee is the Chief Product Officer at LEAD Group, where he leads product strategy, design, and innovation to drive measurable learning outcomes at scale. A hands-on product leader with deep experience across B2B SaaS, Edtech, and enterprise platforms, Indranil brings a strong balance of strategic thinking and execution excellence.",
+  "career": [],
+  "tags": [
+   "K-12",
+   "EdTech",
+   "Product Management"
+  ],
+  "roles": [
+   "chief product officer"
+  ],
+  "fam": [
+   "school_services"
+  ],
+  "exp": "school_adjacent",
+  "q": "medium",
+  "v": "2026-11-26",
+  "src": "official_organisation_page",
+  "ev": [
+   [
+    "product_across_schools",
+    "Indranil Banerjee is the Chief Product Officer at LEAD Group, where he leads product strategy, design, and innovation to drive measurable learning outcomes at scale."
+   ]
+  ],
+  "url": "https://leadschool.in/about-us/leadership-team/"
+ },
+ {
+  "key": "r018",
+  "name": "Guruprasad Holla",
+  "title": "Chief Technology Officer (CTO)",
+  "org": "LEAD Group",
+  "city": "",
+  "status": "current",
+  "bio": "Guruprasad Holla is the Chief Technology Officer at LEAD Group, where he leads the company's technology vision, product innovation, and engineering excellence to power better learning outcomes at scale. With deep expertise in building scalable, high-impact technology platforms, Guruprasad has been instrumental in shaping LEAD Group's technology backbone over the years.",
+  "career": [],
+  "tags": [
+   "K-12",
+   "EdTech"
+  ],
+  "roles": [
+   "chief technology officer"
+  ],
+  "fam": [
+   "school_services"
+  ],
+  "exp": "school_adjacent",
+  "q": "medium",
+  "v": "2026-11-26",
+  "src": "official_organisation_page",
+  "ev": [
+   [
+    "product_across_schools",
+    "Guruprasad Holla is the Chief Technology Officer at LEAD Group, where he leads the company's technology vision, product innovation, and engineering excellence to power better learning outcomes at scale."
+   ]
+  ],
+  "url": "https://leadschool.in/about-us/leadership-team/"
+ },
+ {
+  "key": "r019",
+  "name": "Baidurya Sen",
+  "title": "Co-Founder",
+  "org": "Alokit",
+  "city": "",
+  "status": "current",
+  "bio": "Baidurya Sen. Co-Founder. Baidurya has worked in the school leadership space in different capacities. He designed and developed the curriculum of India School Leadership Institute's (ISLI) various programmes.",
+  "career": [],
+  "tags": [
+   "K-12"
+  ],
+  "roles": [
+   "co-founder"
+  ],
+  "fam": [
+   "school_network_operations",
+   "education_consulting"
+  ],
+  "exp": "multi_school",
+  "q": "medium",
+  "v": "2026-11-26",
+  "src": "official_organisation_page",
+  "ev": [
+   [
+    "school_group_role",
+    "Co-Founder"
+   ]
+  ],
+  "url": "https://alokit.org/"
+ },
+ {
+  "key": "r020",
+  "name": "Manvi Arora",
+  "title": "Co-Founder",
+  "org": "Alokit",
+  "city": "",
+  "status": "current",
+  "bio": "Manvi Arora. Co-Founder. Manvi is an engineer by qualification and an educator by choice. She has over 10 years of experience in both corporate and social enterprise.",
+  "career": [],
+  "tags": [
+   "K-12"
+  ],
+  "roles": [
+   "co-founder"
+  ],
+  "fam": [
+   "school_network_operations",
+   "education_consulting"
+  ],
+  "exp": "multi_school",
+  "q": "medium",
+  "v": "2026-11-26",
+  "src": "official_organisation_page",
+  "ev": [
+   [
+    "school_group_role",
+    "Co-Founder"
+   ]
+  ],
+  "url": "https://alokit.org/"
+ },
+ {
+  "key": "r021",
+  "name": "Abhishek Goel",
+  "title": "Co-Founder & Director",
+  "org": "Kriyaa",
+  "city": "",
+  "status": "current",
+  "bio": "A visionary education entrepreneur, Abhishek Goel is driven by a mission to transform India's learning ecosystem through innovation, accessibility, and globally inspired pedagogies. Believing that every child deserves an equal opportunity to succeed, he has dedicated his efforts to bringing world-class teaching methodologies to Indian classrooms while making quality education affordable and inclusive.",
+  "career": [],
+  "tags": [
+   "K-12",
+   "Education Entrepreneur"
+  ],
+  "roles": [
+   "co-founder",
+   "director"
+  ],
+  "fam": [
+   "education_entrepreneurship"
+  ],
+  "exp": "multi_school",
+  "q": "medium",
+  "v": "2026-11-26",
+  "src": "official_organisation_page",
+  "ev": [
+   [
+    "education_general",
+    "A visionary education entrepreneur, Abhishek Goel is driven by a mission to transform India's learning ecosystem through innovation, accessibility, and globally inspired pedagogies."
+   ]
+  ],
+  "url": "https://www.kriyaa.co/our-team"
+ },
+ {
+  "key": "r022",
+  "name": "Ditipriya Chattopadhyay",
+  "title": "Vice President - Growth and Alliances",
+  "org": "Kriyaa",
+  "city": "",
+  "status": "current",
+  "bio": "An alumnus of the Education Leaders' Programme at IIM Calcutta (2024-25) and gold medalist from the University of Hyderabad, Ditipriya Chattopadhyay, brings over 16 years of rich, cross-functional experience across India's K-12 education landscape. Her expertise spans business development, academic publishing, curriculum design, EdTech product management and school leadership. At Kriyaa, Ditipriya leads growth, patrnerships and cross-functional collaboration.",
+  "career": [],
+  "tags": [
+   "K-12",
+   "EdTech",
+   "Curriculum Design"
+  ],
+  "roles": [
+   "vice president"
+  ],
+  "fam": [
+   "k12_academic_leadership",
+   "school_network_operations"
+  ],
+  "exp": "multi_school",
+  "q": "high",
+  "v": "2026-11-26",
+  "src": "official_organisation_page",
+  "ev": [
+   [
+    "school_leadership",
+    "Her expertise spans business development, academic publishing, curriculum design, EdTech product management and school leadership."
+   ],
+   [
+    "education_general",
+    "An alumnus of the Education Leaders' Programme at IIM Calcutta (2024-25) and gold medalist from the University of Hyderabad, Ditipriya Chattopadhyay, brings over 16 years of rich, cross-functional experience across India's K-12 education landscape."
+   ]
+  ],
+  "url": "https://www.kriyaa.co/our-team"
+ }
+]

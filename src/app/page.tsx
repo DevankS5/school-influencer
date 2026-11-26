@@ -139,7 +139,7 @@ export default async function HomePage() {
           <p className="text-muted">Three input paths exist and exactly one may be used per run. A URL is never silently fetched: without an authorised connector, the API says so and asks for text you&apos;re entitled to use.</p>
           <ul className="space-y-3 text-sm">
             {[
-              ["Seeded profile", "One-click demo with three fictional references."],
+              ["Seeded profile", "One-click demo with three reference professionals."],
               ["Pasted text", "Analysed in-process; indicators are linked to your text."],
               ["Profile URL", "Policy-gated: no scraping, no login automation."],
             ].map(([t, d]) => (

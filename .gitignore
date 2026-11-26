@@ -11,3 +11,6 @@ npm-debug.log*
 .DS_Store
 # Restricted / private datasets must never be committed
 data/private/
+.vercel
+.env*
+data/datasets/*/.extract-cache.json

@@ -1,3 +1,4 @@
+import { ACTIVE } from "@/data/active";
 import Link from "next/link";
 import { NavLinks } from "./NavLinks";
 
@@ -67,7 +68,7 @@ export function SiteFooter() {
         <div>
           <p className="eyebrow">Reproducibility</p>
           <ul className="mt-3 space-y-1.5 leading-relaxed">
-            <li>Dataset · india-school-ecosystem-v1</li>
+            <li>Dataset · {ACTIVE.DATASET_META.version}</li>
             <li>Ranker · hybrid-v1 (weights editable)</li>
             <li>
               <Link href="/governance" className="underline decoration-sage underline-offset-4 hover:text-pine">

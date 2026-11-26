@@ -4,9 +4,11 @@ Given **one reference professional**, discover and rank other professionals with
 relevance to India's school-education ecosystem**. Every score is decomposable, every claim quotes its source,
 and nothing is scraped.
 
-> **Data status: SYNTHETIC TEST DATA.** The bundled corpus (`india-school-ecosystem-v1`) is entirely fictional.
-> It demonstrates the mechanics; it does **not** prove real-world discovery quality, and the "20+ real
-> professionals" criterion remains unproven until a lawful real dataset is imported.
+> **Live: https://school-influencer.vercel.app** · **Data status: REAL public-source dataset** (`india-school-ecosystem-real-v1`, default).
+> 22 real school principals, school-group, school-services and education-NGO leaders, each with the source page URL and
+> excerpts verified verbatim on fetch (`scripts/build-real-dataset.ts`: pages from web search, Gemini extracts people from
+> the fetched text only, 4 candidates rejected by the checks, see `build-report.json`). No LinkedIn, no contact details.
+> The synthetic corpus (`DATASET_VERSION=india-school-ecosystem-v1`) is kept for the labelled evaluation harness.
 
 ![Ranked discovery results for the demo reference (real screenshot of the running app)](docs/screenshot.png)
 

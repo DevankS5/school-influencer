@@ -120,7 +120,7 @@ export function EvidencePanel({
                 <div><dt className="inline font-semibold text-ink/80">Publisher: </dt><dd className="inline">{s.publisherOrOwner}</dd></div>
                 <div><dt className="inline font-semibold text-ink/80">Access method: </dt><dd className="inline">{s.accessMethod.replace(/_/g, " ")}</dd></div>
                 <div><dt className="inline font-semibold text-ink/80">Retrieved: </dt><dd className="inline">{fmtDate(s.retrievedAt)}</dd></div>
-                <div><dt className="inline font-semibold text-ink/80">Source URL: </dt><dd className="inline">{s.sourceUrl ?? "none — not supplied by source record"}</dd></div>
+                <div><dt className="inline font-semibold text-ink/80">Source URL: </dt><dd className="inline">{s.sourceUrl ? <a href={s.sourceUrl} target="_blank" rel="noopener noreferrer nofollow" className="underline break-all">{s.sourceUrl}</a> : "none — not supplied by source record"}</dd></div>
                 <div className="sm:col-span-2"><dt className="inline font-semibold text-ink/80">Permission: </dt><dd className="inline">{s.permissionNotes}</dd></div>
                 {s.notes && <div className="sm:col-span-2 text-clay"><dt className="inline font-semibold">Note: </dt><dd className="inline">{s.notes}</dd></div>}
               </dl>
