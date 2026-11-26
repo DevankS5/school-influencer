@@ -9,12 +9,15 @@ import type { ClaimType, EvidenceQuality, RoleFamily, RoleStatus, SchoolExposure
 export const DATASET_META = {
   version: "india-school-ecosystem-v1",
   title: "India school-ecosystem synthetic fixture",
-  origin: "synthetic" as const,
+  origin: "synthetic" as string,
   asOf: "2025-06-30T00:00:00.000Z",
   description:
     "Fictional professionals spanning school leaders, owners, trustees, consultants, network operators, school-facing vendors, adjacent roles and hard negatives (corporate and university-only profiles). Includes deliberate duplicates, a same-name collision and the reference people themselves to test entity resolution and self-exclusion.",
   licenceNotes:
     "Authored by the EDXSO project team as a test fixture. Contains no real persons, no scraped content, and no LinkedIn data. Any resemblance to real people or organisations is coincidental. Free to redistribute with the repository. Not suitable for model training claims about real-world performance.",
+  publisher: "EDXSO synthetic fixture",
+  accessMethod: "synthetic_fixture_import",
+  permissionNotes: "Fictional record authored for pipeline testing. No real person. No URL by design.",
 };
 
 export interface RawRecord {
@@ -37,6 +40,7 @@ export interface RawRecord {
   label?: 0 | 1 | 2 | 3; // relevance to demo-ref-001
   dupOf?: string;
   self?: boolean;
+  url?: string; // public source page (real datasets only)
 }
 
 const R = (r: RawRecord): RawRecord => r;

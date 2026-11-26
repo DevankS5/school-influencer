@@ -10,7 +10,10 @@ import {
   referenceProfiles,
   relevanceLabels,
 } from "@/db/schema";
-import { DATASET_META, RECORDS, REFERENCES, splitFor, type RawRecord } from "@/data/india-school-ecosystem-v1";
+import { ACTIVE } from "@/data/active";
+import type { RawRecord } from "@/data/india-school-ecosystem-v1";
+
+const { DATASET_META, RECORDS, REFERENCES, splitFor } = ACTIVE;
 import { DEFAULT_CONFIG } from "./config";
 import { CLAIM_TYPES, INDIA_GAZETTEER, ROLE_FAMILIES, ROLE_FAMILIES as FAMILIES, SCHOOL_EXPOSURE, SOURCE_TYPES, TAXONOMY_VERSION } from "./taxonomy";
 import { DOC_TEMPLATE_VERSION, EMBEDDING_DIM, EMBEDDING_MODEL, EMBEDDING_REVISION, embed, normaliseKey, sha1Like } from "./text";
@@ -137,21 +140,21 @@ async function seedInTransaction() {
       sourceRows.push({
         id: sid, personId: pid,
         sourceName: `${SOURCE_TYPES[r.src]} — ${r.org}`,
-        sourceType: r.src, sourceUrl: null,
-        publisherOrOwner: "EDXSO synthetic fixture",
-        accessMethod: "synthetic_fixture_import",
-        permissionNotes: "Fictional record authored for pipeline testing. No real person. No URL by design.",
-        dataOrigin: "synthetic",
+        sourceType: r.src, sourceUrl: r.url ?? null,
+        publisherOrOwner: r.url ? `${DATASET_META.publisher} (${new URL(r.url).hostname})` : DATASET_META.publisher,
+        accessMethod: DATASET_META.accessMethod,
+        permissionNotes: DATASET_META.permissionNotes,
+        dataOrigin: DATASET_META.origin,
         retrievedAt: new Date(r.v), publishedAt: null,
         contentHash: sha1Like(body),
         fieldCoverage: ["display_name", "title", "organisation", "location", "biography", ...(r.career.length ? ["career_history"] : [])],
-        verificationStatus: r.q === "high" ? "fixture_reviewed" : r.q === "medium" ? "fixture_partially_reviewed" : "unreviewed",
+        verificationStatus: r.url ? "verbatim_excerpt_verified_on_fetch" : r.q === "high" ? "fixture_reviewed" : r.q === "medium" ? "fixture_partially_reviewed" : "unreviewed",
         notes: r.src === "conference_speaker_bio" ? "Event biography: historical evidence only; current role not confirmed." : null,
       });
       r.ev.forEach(([claim, excerpt], i) => {
         evidenceRows.push({
           id: `ev_${r.key}_${i + 1}`, personId: pid, sourceId: sid, claimType: claim,
-          claimText: CLAIM_TYPES[claim].label, excerpt, sourceLocator: "biography",
+          claimText: CLAIM_TYPES[claim].label, excerpt, sourceLocator: r.url ?? "biography",
           observedAt: new Date(r.v), confidence: CONF[r.q],
           reviewStatus: r.q === "low" ? "unreviewed" : "reviewed",
         });
@@ -217,7 +220,7 @@ async function seedInTransaction() {
     await tx.insert(referenceProfiles).values(
       REFERENCES.map((r, i) => ({
         id: r.id, displayName: r.displayName, currentRole: r.currentRole, organisation: r.organisation,
-        location: r.location, profileText: r.profileText, headline: r.headline, isSynthetic: true, sortOrder: i,
+        location: r.location, profileText: r.profileText, headline: r.headline, isSynthetic: DATASET_META.origin === "synthetic", sortOrder: i,
       })),
     ).onConflictDoNothing();
     await tx.insert(rankingConfigs).values({
